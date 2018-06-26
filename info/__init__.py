@@ -21,6 +21,8 @@ file_log_handler.setFormatter(formatter)
 logging.getLogger().addHandler(file_log_handler)
 
 
+
+
 db = SQLAlchemy()
 redis_store = None
 
@@ -32,11 +34,24 @@ def create_app(config_name):
 
     db.init_app(app)
     global redis_store
-    redis_store = redis.StrictRedis(host=class_name.REDIS_HOST, port=class_name.REDIS_PORT)
+    redis_store = redis.StrictRedis(host=class_name.REDIS_HOST, port=class_name.REDIS_PORT, decode_responses=True)
+
+    from info.utils.common import index_class
+    app.add_template_filter(index_class, "indexClass")
 
     Session(app)
 
     CSRFProtect(app)
+
+    # 往浏览器写入csrf_token
+    @app.after_request
+    def after_request(response):
+        # 调用函数生成　csrf_token
+        csrf_token = generate_csrf()
+        response.set_cookie("csrf_token", csrf_token)
+        return response
+
+
     # 注册蓝图
     from info.index import index_blue
     app.register_blueprint(index_blue)
@@ -44,6 +59,8 @@ def create_app(config_name):
     from info.passport import passport_blue
     app.register_blueprint(passport_blue)
 
+    from info.news import news_blue
+    app.register_blueprint(news_blue)
 
 
     return app

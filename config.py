@@ -17,7 +17,7 @@ class Config(object):   # 5
     PERMANENT_SESSION_LIFETIME = 86400 * 2
     # 初始化session-redis
     # 这个redis是用户存储flask_session
-    SESSION_REDIS = redis.StrictRedis(host=REDIS_HOST, port=REDIS_PORT)
+    SESSION_REDIS = redis.StrictRedis(host=REDIS_HOST, port=REDIS_PORT, )
     # 开启session签名
     SESSION_USE_SIGNER = True
 

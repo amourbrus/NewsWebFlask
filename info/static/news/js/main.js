@@ -118,6 +118,29 @@ $(function(){
         }
 
         // 发起登录请求
+        var params = {
+            "mobile": mobile,
+            "password": password,
+         }
+
+        $.ajax({
+            url:"/passport/login",
+            method: "post",
+            headers: {
+                "X-CSRFToken": getCookie("csrf_token")
+            },
+            data: JSON.stringify(params),
+            contentType: "application/json",
+            success: function (resp) {
+                if (resp.errno == "0") {
+                    // 刷新当前界面
+                    location.reload();
+                }else {
+                    $("#login-password-err").html(resp.errmsg)
+                    $("#login-password-err").show()
+                }
+            }
+    })
     })
 
 
@@ -152,6 +175,30 @@ $(function(){
         }
 
         // 发起注册请求
+        var params = {
+            "mobile": mobile,
+            "smscode": smscode,
+            "password": password,
+        }
+
+        $.ajax({
+            url:"/passport/register",
+            type: "post",
+            headers: {
+            "X-CSRFToken": getCookie("csrf_token")
+        },
+            data: JSON.stringify(params),
+            contentType: "application/json",
+            success: function (resp) {
+                if (resp.errno == "0"){
+                    // 刷新当前界面
+                    location.reload()
+                }else {
+                    $("#register-password-err").html(resp.errmsg)
+                    $("#register-password-err").show()
+                }
+            }
+        })
 
     })
 })
@@ -190,13 +237,77 @@ function sendSMSCode() {
     }
 
     // TODO 发送短信验证码
+    var params = {
+        "mobile": mobile,
+        "image_code": imageCode,
+        "image_code_id": imageCodeId
+    }
+
+    $.ajax({
+        // 请求地址
+        url: "/passport/sms_code",
+        // 请求方式
+        method: "POST",
+        headers: {
+            "X-CSRFToken": getCookie("csrf_token")
+        },
+        // 请求内容
+        data: JSON.stringify(params),
+        // 请求内容的数据类型
+        contentType: "application/json",
+        // 响应数据的格式
+        dataType: "json",
+        success: function (resp) {
+            if (resp.errno == "0") {
+                // 倒计时60秒，60秒后允许用户再次点击发送短信验证码的按钮
+                var num = 60;
+                // 设置一个计时器
+                var t = setInterval(function () {
+                    if (num == 1) {
+                        // 如果计时器到最后, 清除计时器对象
+                        clearInterval(t);
+                        // 将点击获取验证码的按钮展示的文本回复成原始文本
+                        $(".get_code").html("获取验证码");
+                        // 将点击按钮的onclick事件函数恢复回去
+                        $(".get_code").attr("onclick", "sendSMSCode();");
+                    } else {
+                        num -= 1;
+                        // 展示倒计时信息
+                        $(".get_code").html(num + "秒");
+                    }
+                }, 1000)
+            } else {
+                // 表示后端出现了错误，可以将错误信息展示到前端页面中
+                $("#register-sms-code-err").html(resp.errmsg);
+                $("#register-sms-code-err").show();
+                // 将点击按钮的onclick事件函数恢复回去
+                $(".get_code").attr("onclick", "sendSMSCode();");
+                // 如果错误码是4004，代表验证码错误，重新生成验证码
+                if (resp.errno == "4004") {
+                    generateImageCode()
+                }
+            }
+        }
+    })
 }
 
 // 退出登陆
 function logout() {
-    $.get("/passport/logout",function (resp) {
-        //刷新当前页面
-        location.reload()
+    // $.get("/passport/logout",function (resp) {
+    //     刷新当前页面
+    //     location.reload()
+    // })
+     $.ajax({
+        url: "/passport/logout",
+        type: "post",
+        contentType: "application/json",
+        headers: {
+            "X-CSRFToken": getCookie("csrf_token")
+        },
+        success: function (resp) {
+            // 刷新当前界面
+            location.reload()
+        }
     })
 }
 
