@@ -1,24 +1,629 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="834ff566-3d33-4853-b550-13ceb788b021" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/css/jquery.pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/html/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/html/news_edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/html/news_edit_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/html/news_review.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/html/news_review_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/html/news_type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/html/user_count.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/html/user_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/images/login-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/images/person.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/js/echarts.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/js/jquery-1.12.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/js/jquery.form.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/js/jquery.pagination.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/js/news_edit_detail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/js/news_review_detail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/js/news_type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/js/tinymce_setup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/LICENSE.TXT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/jquery.tinymce.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/langs/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/langs/zh_CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/advlist/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/anchor/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/autolink/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/autoresize/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/autosave/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/bbcode/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/charmap/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/code/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/codesample/css/prism.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/codesample/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/colorpicker/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/contextmenu/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/directionality/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/emoticons/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/fullpage/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/fullscreen/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/help/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/help/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/hr/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/image/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/imagetools/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/imageupload/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/imageupload/img/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/imageupload/jquery.iframe-post-form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/imageupload/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/imageupload/uncompressed/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/imageupload/uncompressed/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/importcss/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/link/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/lists/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/media/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/noneditable/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/pagebreak/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/paste/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/preview/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/print/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/save/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/searchreplace/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/spellchecker/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/tabfocus/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/table/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/template/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/textcolor/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/textpattern/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/toc/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/visualblocks/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/visualchars/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/plugins/wordcount/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/content.inline.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/content.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/content.mobile.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-mobile.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/img/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/img/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/img/object.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/img/trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/skin.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/skins/lightgray/skin.mobile.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/themes/inlite/theme.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/themes/mobile/theme.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/themes/modern/theme.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/admin/tinymce/js/tinymce/tinymce.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/css/jquery.pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/html/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/html/other.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/html/user_collection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/html/user_follow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/html/user_news_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/html/user_news_release.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/html/user_pass_info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/cat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/clock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/collect_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/comment_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/focus_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/hit_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/news_pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/not_found.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/person.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/person01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/person02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/person03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/pic_code.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/reply_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/shutoff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/tip_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/user_pic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/worm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/images/zan_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/js/detail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/js/jquery-1.12.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/js/jquery.form.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/js/jquery.pagination.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/js/other.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/js/tinymce_setup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/js/user_base_info.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/js/user_follow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/js/user_news_release.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/js/user_pass_info.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/js/user_pic_info.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/LICENSE.TXT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/jquery.tinymce.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/langs/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/langs/zh_CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/advlist/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/anchor/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/autolink/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/autoresize/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/autosave/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/bbcode/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/charmap/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/code/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/codesample/css/prism.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/codesample/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/colorpicker/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/contextmenu/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/directionality/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/emoticons/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/fullpage/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/fullscreen/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/help/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/help/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/hr/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/image/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/imagetools/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/imageupload/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/imageupload/img/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/imageupload/jquery.iframe-post-form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/imageupload/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/imageupload/uncompressed/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/imageupload/uncompressed/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/importcss/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/link/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/lists/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/media/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/noneditable/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/pagebreak/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/paste/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/preview/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/print/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/save/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/searchreplace/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/spellchecker/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/tabfocus/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/table/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/template/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/textcolor/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/textpattern/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/toc/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/visualblocks/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/visualchars/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/plugins/wordcount/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/content.inline.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/content.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/content.mobile.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-mobile.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/img/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/img/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/img/object.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/img/trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/skin.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/skins/lightgray/skin.mobile.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/themes/inlite/theme.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/themes/mobile/theme.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/themes/modern/theme.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/static/news/tinymce/js/tinymce/tinymce.min.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/info/static/news/html/user.html" afterPath="$PROJECT_DIR$/info/templates/news/user.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/info/static/news/html/user_base_info.html" afterPath="$PROJECT_DIR$/info/templates/news/user_base_info.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/info/static/news/html/user_pic_info.html" afterPath="$PROJECT_DIR$/info/templates/news/user_pic_info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/info/__init__.py" afterPath="$PROJECT_DIR$/info/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/info/templates/news/base.html" afterPath="$PROJECT_DIR$/info/templates/news/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/info/templates/news/detail.html" afterPath="$PROJECT_DIR$/info/templates/news/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/info/templates/news/index.html" afterPath="$PROJECT_DIR$/info/templates/news/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/log" afterPath="$PROJECT_DIR$/logs/log" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/newsWebFlask$manage.coverage" NAME="manage Coverage Results" MODIFIED="1530795034548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/info/templates/news/user.html" />
+        <option value="$PROJECT_DIR$/info/static/news/js/user_base_info.js" />
+        <option value="$PROJECT_DIR$/info/templates/news/user_pic_info.html" />
+        <option value="$PROJECT_DIR$/info/static/news/js/user_pic_info.js" />
+        <option value="$PROJECT_DIR$/info/user/views.py" />
+        <option value="$PROJECT_DIR$/info/__init__.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="721" />
+    <option name="y" value="132" />
+    <option name="width" value="879" />
+    <option name="height" value="734" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsWebFlask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsWebFlask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsWebFlask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsWebFlask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.virtualenvs/py3/bin/python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v10.6.0/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v10.6.0/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/info/templates/news" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration default="false" name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newsWebFlask" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newsWebFlask" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newsWebFlask" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newsWebFlask" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newsWebFlask" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="newsWebFlask" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newsWebFlask" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newsWebFlask" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newsWebFlask" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newsWebFlask" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newsWebFlask" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.manage" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="834ff566-3d33-4853-b550-13ceb788b021" name="Default" comment="" />
       <created>1529799865227</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -26,11 +631,126 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="721" y="132" width="879" height="734" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28315413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/info/templates/news/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/py3/lib/python3.5/site-packages/flask/blueprints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/py3/lib/python3.5/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="888" column="0" lean-forward="false" selection-start-line="888" selection-start-column="0" selection-end-line="888" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/user/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-550">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/static/news/js/user_pic_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/templates/news/user_pic_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/static/news/js/user_base_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/templates/news/user_base_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="184" column="0" lean-forward="true" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

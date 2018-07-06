@@ -1,6 +1,9 @@
 from logging.handlers import RotatingFileHandler
 
 import logging
+
+from flask import g
+from flask import render_template
 from flask_sqlalchemy import SQLAlchemy
 from config import Config, DevelopmentConfig, ProductionConfig, config_map
 from flask import Flask
@@ -51,6 +54,17 @@ def create_app(config_name):
         response.set_cookie("csrf_token", csrf_token)
         return response
 
+    from info.utils.common import user_login_data  # 待解决：这个放到开头会报错
+    # 当前的４０４页面表示全局所有的，所以把当前代码写到__init__
+    # errorhandler：表示捕获http异常
+    @app.errorhandler(404)
+    @user_login_data
+    def not_found(e):
+        user = g.user
+        data = {
+            "user_info": user.to_dict() if user else None
+        }
+        return render_template("news/404.html", data=data)
 
     # 注册蓝图
     from info.index import index_blue
@@ -62,5 +76,7 @@ def create_app(config_name):
     from info.news import news_blue
     app.register_blueprint(news_blue)
 
+    from info.user import profile_blue
+    app.register_blueprint(profile_blue)
 
     return app
