@@ -79,4 +79,7 @@ def create_app(config_name):
     from info.user import profile_blue
     app.register_blueprint(profile_blue)
 
+    from info.admin import admin_blue
+    app.register_blueprint(admin_blue)
+
     return app
